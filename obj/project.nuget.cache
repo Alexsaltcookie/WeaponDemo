@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rIW3KlmXTzQ=",
+  "success": true,
+  "projectFilePath": "D:\\WeGameApps\\文档\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\WeaponDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

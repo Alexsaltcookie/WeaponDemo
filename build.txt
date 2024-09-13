@@ -1,0 +1,3 @@
+displayName = Weapon++
+author = Alex
+version = 0.1

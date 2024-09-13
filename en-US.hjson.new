@@ -1,0 +1,32 @@
+
+Mods: {
+	WeaponDemo: {
+		Items: {
+			AK: {
+				DisplayName: A K
+				Tooltip: 露头就秒!!!
+			}
+
+			Soullabitem.DisplayName: Soullabitem
+
+			Knife: {
+				DisplayName: Knife
+				Tooltip: 在挥砍的同时留下弹幕 造成滞留伤害 弹幕会逐渐消失
+			}
+
+			Sword: {
+				DisplayName: Sword
+				Tooltip: 露头就秒!!!
+			}
+
+			watersoul.DisplayName: watersoul
+		}
+
+		NPCs.Rod.DisplayName: Rod
+
+		Projectiles: {
+			C.DisplayName: C
+			Ray.DisplayName: Ray
+		}
+	}
+}
