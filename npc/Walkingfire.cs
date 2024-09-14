@@ -18,11 +18,12 @@ using Terraria.GameContent.ItemDropRules;
 using System.Numerics;
 using WeaponDemo.Projectiles;
 using Humanizer;
+using System.Security.Cryptography.X509Certificates;
 
 
 namespace WeaponDemo.npc
 {
-   class PartyZombie : Fsmnpc { 
+   class Walkingfire : Fsmnpc { 
         private bool _friendly = false;
         private int _FrameTime = 0;
         private bool _dash = false;
@@ -58,16 +59,17 @@ namespace WeaponDemo.npc
             {
                 // 寻找最近的一个玩家
                 NPC.TargetClosest(false);
+                
                 Player target = Main.player[NPC.target];
-                Microsoft.Xna.Framework.Vector2 directionToPlayer = target.Center - NPC.Center;
+                Microsoft.Xna.Framework.Vector2 directionToPlayer = target.Center - NPC.Center;//速率
                 Microsoft.Xna.Framework.Vector2 DTP = target.Center - NPC.Center;
-
+                
                 // 确保玩家是活跃的
                 if (target.active)
                 {
-                    if(NPC.noTileCollide && NPC.position.Y > (int)NPC.position.Y / 16 * 16)
+                    if(NPC.noTileCollide && NPC.position.Y > (int)NPC.position.Y / 16 * 16)//检测是否有碰撞，用来查看NPC是否在空中
                     {
-                        directionToPlayer.X = 0;
+                        directionToPlayer.X = 0;//空中不允许平移
                     }
                 // 计算僵尸到玩家的方向 
                 directionToPlayer.Y = 0f; // 只保留水平方向
@@ -82,11 +84,18 @@ namespace WeaponDemo.npc
                 }
             }
         }
+        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        {
+            foreach (var p in Main.player)
+            {
+                p.AddBuff(BuffID.OnFire, 300);
+            }
+        }
 
-    
 
-        
-        
+
+
+
         public override void FindFrame(int frameHeight)
         {
             switch (_FrameTime)
