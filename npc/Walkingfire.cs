@@ -46,11 +46,7 @@ namespace WeaponDemo.npc
             NPC.noTileCollide = false;
             NPC.knockBackResist = 0.3f;
             AIType = 1;
-
-            //AIType = NPCID.Mummy;
-            //AnimationType = NPCID.Zombie;
         }
-
         public override void AI()
         {
             _FrameTime++;
@@ -59,11 +55,9 @@ namespace WeaponDemo.npc
             {
                 // 寻找最近的一个玩家
                 NPC.TargetClosest(false);
-                
                 Player target = Main.player[NPC.target];
                 Microsoft.Xna.Framework.Vector2 directionToPlayer = target.Center - NPC.Center;//速率
                 Microsoft.Xna.Framework.Vector2 DTP = target.Center - NPC.Center;
-                
                 // 确保玩家是活跃的
                 if (target.active)
                 {
@@ -84,18 +78,6 @@ namespace WeaponDemo.npc
                 }
             }
         }
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
-        {
-            foreach (var p in Main.player)
-            {
-                p.AddBuff(BuffID.OnFire, 300);
-            }
-        }
-
-
-
-
-
         public override void FindFrame(int frameHeight)
         {
             switch (_FrameTime)
@@ -116,10 +98,7 @@ namespace WeaponDemo.npc
                         _FrameTime = 0;
                         break;
                     }
-                
-
             }
-            
         }
     }
     public abstract class Fsmnpc : ModNPC

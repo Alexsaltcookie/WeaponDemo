@@ -3,33 +3,11 @@
   "WorkspaceRootPath": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|d:\\wegameapps\\\u6587\u6863\\my games\\terraria\\tmodloader\\modsources\\weapondemo\\npc\\partyzombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|solutionrelative:npc\\partyzombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|d:\\wegameapps\\\u6587\u6863\\my games\\terraria\\tmodloader\\modsources\\weapondemo\\npc\\walkingfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|solutionrelative:npc\\walkingfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|d:\\wegameapps\\\u6587\u6863\\my games\\terraria\\tmodloader\\modsources\\weapondemo\\npc\\rod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|solutionrelative:npc\\rod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|d:\\wegameapps\\\u6587\u6863\\my games\\terraria\\tmodloader\\modsources\\weapondemo\\items\\knife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|solutionrelative:items\\knife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\Sounds\\CustomSounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|d:\\wegameapps\\\u6587\u6863\\my games\\terraria\\tmodloader\\modsources\\weapondemo\\items\\ak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|solutionrelative:items\\ak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\NPCs\\PreHM\\AncientGladestoneGolem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|d:\\wegameapps\\\u6587\u6863\\my games\\terraria\\tmodloader\\modsources\\weapondemo\\items\\ak.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{E49D91F9-D6D4-416F-A1E3-870D015691CB}|WeaponDemo.csproj|solutionrelative:items\\ak.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\Base\\BaseAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\CalamityMod-1.4.4\\NPCs\\PlagueEnemies\\Melter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,101 +17,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PartyZombie.cs",
-              "DocumentMoniker": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\npc\\PartyZombie.cs",
-              "RelativeDocumentMoniker": "npc\\PartyZombie.cs",
-              "ToolTip": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\npc\\PartyZombie.cs",
-              "RelativeToolTip": "npc\\PartyZombie.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAAAB8AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T10:55:18.854Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Rod.cs",
-              "DocumentMoniker": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\npc\\Rod.cs",
-              "RelativeDocumentMoniker": "npc\\Rod.cs",
-              "ToolTip": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\npc\\Rod.cs",
-              "RelativeToolTip": "npc\\Rod.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAAABkAAAAfAAAA",
+              "Title": "Melter.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\CalamityMod-1.4.4\\NPCs\\PlagueEnemies\\Melter.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\CalamityMod-1.4.4\\NPCs\\PlagueEnemies\\Melter.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwEAAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T11:36:12.096Z"
+              "WhenOpened": "2024-09-14T11:50:10.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Knife.cs",
-              "DocumentMoniker": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\Items\\Knife.cs",
-              "RelativeDocumentMoniker": "Items\\Knife.cs",
-              "ToolTip": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\Items\\Knife.cs",
-              "RelativeToolTip": "Items\\Knife.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAA6AAAA",
+              "DocumentIndex": 0,
+              "Title": "Walkingfire.cs",
+              "DocumentMoniker": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\npc\\Walkingfire.cs",
+              "RelativeDocumentMoniker": "npc\\Walkingfire.cs",
+              "ToolTip": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\npc\\Walkingfire.cs",
+              "RelativeToolTip": "npc\\Walkingfire.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAE8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T14:02:49.357Z"
-            },
+              "WhenOpened": "2024-09-14T11:48:17.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomSounds.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\Sounds\\CustomSounds.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\Sounds\\CustomSounds.cs",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:25:12.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AK.cs",
-              "DocumentMoniker": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\Items\\AK.cs",
-              "RelativeDocumentMoniker": "Items\\AK.cs",
-              "ToolTip": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\Items\\AK.cs",
-              "RelativeToolTip": "Items\\AK.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAuwCYAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T07:16:58.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AK.png",
-              "DocumentMoniker": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\Items\\AK.png",
-              "RelativeDocumentMoniker": "Items\\AK.png",
-              "ToolTip": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\Items\\AK.png",
-              "RelativeToolTip": "Items\\AK.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-09-07T07:16:55.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AncientGladestoneGolem.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\NPCs\\PreHM\\AncientGladestoneGolem.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\NPCs\\PreHM\\AncientGladestoneGolem.cs",
-              "ViewState": "AQIAAO4AAAAAAAAAAAAAwPwAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T07:15:49.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseAI.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\Base\\BaseAI.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\RedemptionAlpha-main\\Base\\BaseAI.cs",
-              "ViewState": "AQIAAGQCAAAAAAAAAAAQwJgCAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T12:10:36.191Z"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             }
           ]
         }
