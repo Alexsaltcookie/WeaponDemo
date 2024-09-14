@@ -39,15 +39,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -57,7 +53,7 @@
               "RelativeDocumentMoniker": "npc\\PartyZombie.cs",
               "ToolTip": "D:\\WeGameApps\\\u6587\u6863\\My Games\\Terraria\\tModLoader\\ModSources\\WeaponDemo\\npc\\PartyZombie.cs",
               "RelativeToolTip": "npc\\PartyZombie.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwFkAAAA3AAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwEYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T10:55:18.854Z",
               "EditorCaption": ""

@@ -45,6 +45,7 @@ namespace WeaponDemo.npc
             NPC.noTileCollide = false;
             NPC.knockBackResist = 0.3f;
             AIType = 1;
+
             //AIType = NPCID.Mummy;
             //AnimationType = NPCID.Zombie;
         }
@@ -64,13 +65,12 @@ namespace WeaponDemo.npc
                 // 确保玩家是活跃的
                 if (target.active)
                 {
-                    if (NPC.velocity.Y == 0f && NPC.position.Y > Main.player[NPC.target].position.Y)
+                    if(NPC.noTileCollide && NPC.position.Y > (int)NPC.position.Y / 16 * 16)
                     {
-                        NPC.velocity.Y += 0.5f;
+                        directionToPlayer.X = 0;
                     }
-
-                    // 计算僵尸到玩家的方向 
-                    directionToPlayer.Y = 0f; // 只保留水平方向
+                // 计算僵尸到玩家的方向 
+                directionToPlayer.Y = 0f; // 只保留水平方向
                     if (directionToPlayer != Microsoft.Xna.Framework.Vector2.Zero)
                     {
                         directionToPlayer.Normalize();
